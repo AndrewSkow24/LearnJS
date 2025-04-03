@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+.header {
+  min-height: 1024px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) -7.355%,
+      rgb(0, 9, 21) 100%
+    ),
+    url(img/header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  /* убирает нежелательную прокрутку */
+  overflow: hidden;
+}
+
+.header__main-heading {
+  min-width: 788px;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 217px;
+  padding-left: 120px;
+  padding-right: 531px;
+}
+
+.header__main-text {
+  min-width: 481px;
+  padding-top: 32px;
+  padding-left: 120px;
+  padding-right: 838px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.header__button {
+  margin-top: 44px;
+  height: 48.6px;
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  min-width: 234.06px;
+  margin-left: 120px;
+  margin-right: 1085.94;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: none;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700px;
+}
+
+.main {
+  min-height: 556px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 32px;
+  background: rgb(0, 9, 21);
+  overflow: hidden;
+  padding: 128px 120px;
+}
+
+.main__item {
+  min-width: 379px;
+  min-height: 300px;
+  border-radius: 16px;
+}
+
+.item1 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%),
+    url(img/game1.jpeg);
+}
+
+.item2 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%),
+    url(img/game2.jpeg);
+}
+
+.item3 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%),
+    url(img/game3.jpeg);
+}
